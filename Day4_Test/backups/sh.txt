@@ -1,0 +1,7 @@
+for files in `ls`
+do
+FileName=`echo $files | awk -F. '{ print $2 }'`
+
+mkdir $FileName /c/virendra/Backup/Projects/Bridgelabz-dev/TerminalCommands/linux-content/test/backups/
+mv  $files /c/virendra/Backup/Projects/Bridgelabz-dev/TerminalCommands/linux-content/test/backups/$FileName/
+done

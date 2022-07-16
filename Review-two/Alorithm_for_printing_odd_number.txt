@@ -1,0 +1,7 @@
+#Algorithm:
+1. Take Start Point from the User
+2. Take End Point from the User
+3. Using a loop to generate odd numbers. the loop will exit when condition will be false. Condition(Start_Point < End_Point)
+4. Print odd number 
+5. Increment start_point with 2
+6. Finish

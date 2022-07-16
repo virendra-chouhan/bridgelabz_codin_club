@@ -16,7 +16,7 @@ echo $compute2
 echo $compute3
 
 echo $compute4
-
+#creating dictionary
 declare -A airthmatic
 airthmatic[compute]=$compute
 airthmatic[compute2]=$compute2
